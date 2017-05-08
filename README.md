@@ -74,97 +74,52 @@ get conmit
 20. **工作区提交到仓库的命令**
 
 #  Markdown总结
-1 mmmmmmmmmmmmmm
+1. **什么是MarkDown**  
 Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
-2）MarkDown的用途
-Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如Joomla、Drupal都能很好的支持Markdown。完全采用Markdown编辑器的博客平台有Ghost和Typecho。
-用于编写说明文档，并且以“README.MD”的文件名保存在软件的目录下面。
-除此之外，现在由于我们有了RStudio这样的神级编辑器，我们还可以快速将Markdown转化为演讲PPT、Word产品文档、LaTex论文甚至是用非常少量的代码完成最小可用原型。在数据科学领域，Markdown已经被确立为科学研究规范，极大地推进了动态可重复性研究的历史进程。[2] 
-3）MarkDown的特点
-轻量、简单、通用
-兼容HTML 在线观看 平台支持  版本样式简单
-4）MarkDown的编辑工具有哪些
-常用的Markdown 编辑器
-OSX
+2. **MarkDown的用途**  
+Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如Joomla、Drupal都能很好的支持Markdown。完全采用Markdown编辑器的博客平台有Ghost和Typecho。  
+用于编写说明文档，并且以“README.MD”的文件名保存在软件的目录下面。  
+除此之外，现在由于我们有了RStudio这样的神级编辑器，我们还可以快速将Markdown转化为演讲PPT、Word产品文档、LaTex论文甚至是用非常少量的代码完成最小可用原型。在数据科学领域，Markdown已经被确立为科学研究规范，极大地推进了动态可重复性研究的历史进程。  
+3. **MarkDown的特点**
+轻量、简单、通用  
+兼容HTML 在线观看 平台支持  版本样式简单  
+4. **MarkDown的编辑工具有哪些**  
+常用的Markdown 编辑器  
+OSX  
 Atom
 Byword
 Mou
 Typora
 MacDown
-RStudio
-Linux
+RStudio  
+Linux  
 Atom
 ReText
 UberWriter
-RStudio
-Windows
+RStudio  
+Windows  
 Atom
 MarkdownPad
 Miu
 Typora
 RStudio
 iOS
-Byword
-浏览器插件
+Byword  
+浏览器插件  
 MaDo (Chrome)
-Marxico（Chrome）
-高级应用
-Sublime Text 2 + MarkdownEditing / 教程[1] 
-5）MarkDown的区块元素和区段元素分别包含哪些
-区块元素
+Marxico（Chrome）  
+高级应用  
+Sublime Text 2 + MarkdownEditing   
+5. **MarkDown的区块元素和区段元素分别包含哪些**  
+区块元素  
   1.段落和换行
-
-一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行。
-
   2.标题
-
-用#标识符表示
   3.区块引用
-
-在段落的第一行最前面加">"
-区块引用可以嵌套
-区块内也可以套用其他的 Markdown 语法，包括加粗、列表、代码区块等
-  4.列表
-
-Markdown 支持有序列表和无序列表。
-
-无序列表使用星号、加号或是减号作为列表标记，效果一样：
-有序列表则使用数字接着一个英文句点：
+  4.列biao
   5.代码区块
-
-要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以，例如，下面的输入：
-  6.分隔线
-
-你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
 区段元素
 
   1.链接
-
-方块括号后面紧接着圆括号并插入网址链接即可，例如：
-我的博客地址：Mr H's Blog
   2.强调
-
-Markdown 使用星号（*）和底线（_）作为标记强调字词的符号
-
-斜体
-
-Paste_Image.png
-粗体
-
-Paste_Image.png
-删除线
-
-空格
-Markdown语法会忽略首行开头的空格，如果要体现出首行开头空两个的效果，可以使用 全角符号下的空格 ，windows下使用 shift+空格 切换。
-
-
-Paste_Image.png
-  3.行内标记
-
-行内标记用反引号把它包起来' '，例如：
-
-
-Paste_Image.png
+  3.行内
   4.插入图片
-
-我用过的简书在线编辑器和马克飞象都支持直接导入本地图片和从粘贴板粘贴，就像酱紫：
