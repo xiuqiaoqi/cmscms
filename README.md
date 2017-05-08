@@ -1,4 +1,4 @@
-# CMS总结（1）
+# Github总结（1）
 1. **github是什么**  
 GitHub 是一个面向开源及私有软件项目的托管平台，IT技术人员的社交平台
 2. **git是什么**    
@@ -30,3 +30,141 @@ overview  repositories  stars  followers  following
 14. **搜索结果分别有哪些类别**   
 仓库 代码 用户 注释    
 repositories  code  commits issues  wikis  users  
+#  Github总结（2）
+1. **个人主页上的“+”下拉菜单可创建的四种类别分别有？分别的意思？**  
+new repository新建仓库   import repository导入仓库      
+new gist新建代码片段   new organization新建组织  
+2. **如何能将仓库中的html文件直接解析成页面？**  
+setting -  master branch   
+3. **删除仓库**  
+setting  - delete this repository  
+4. **是什么操作系统的命令**  
+linux系统  
+5. **是什么命令**  
+在Linux层次结构中，想要知道当前所处的目录，可以用pwd命令，该命令显示整个路径名  
+打印当前工作目录 print working directory   
+6. **什么命令**  
+Change Directory 改变当前目录  
+7. **o是什么命令**  
+echo命令的功能是在显示器上显示一段文字，一般起到一个提示的作用  
+打印 输出  
+8. **it用户名的命令**  
+git config --global user.name "youname"  
+9. **箱的命令**  
+git config --global user.email "youeamil@email.com"  
+10. **换行方式**  
+“/”  
+11. **行终结方式**
+ctrl+c  
+12. **令行比GUI方式有何优势**
+命令行更加简洁  
+13. **交到本地仓库时为什么有暂存区**  
+workspace工作区先放入 index暂存区选择提交conmit  到repository仓库  
+14. **建代码仓库的命令**  
+git init 
+15. **it clone [url] 这个命令的作用是**  
+克隆仓库  将github上的内容放入本地文件中  
+16. **加指定文件到暂存区的命令**  
+commit  
+17. **作区文件，并且将这次删除放入暂存区的命令**  
+git rm  
+18. **件，并且将这个改名文件放入暂存区的命令**
+19. **存区到仓库的命令**
+get conmit  
+20. **工作区提交到仓库的命令**
+
+#  Markdown总结
+1 mmmmmmmmmmmmmm
+Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+2）MarkDown的用途
+Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如Joomla、Drupal都能很好的支持Markdown。完全采用Markdown编辑器的博客平台有Ghost和Typecho。
+用于编写说明文档，并且以“README.MD”的文件名保存在软件的目录下面。
+除此之外，现在由于我们有了RStudio这样的神级编辑器，我们还可以快速将Markdown转化为演讲PPT、Word产品文档、LaTex论文甚至是用非常少量的代码完成最小可用原型。在数据科学领域，Markdown已经被确立为科学研究规范，极大地推进了动态可重复性研究的历史进程。[2] 
+3）MarkDown的特点
+轻量、简单、通用
+兼容HTML 在线观看 平台支持  版本样式简单
+4）MarkDown的编辑工具有哪些
+常用的Markdown 编辑器
+OSX
+Atom
+Byword
+Mou
+Typora
+MacDown
+RStudio
+Linux
+Atom
+ReText
+UberWriter
+RStudio
+Windows
+Atom
+MarkdownPad
+Miu
+Typora
+RStudio
+iOS
+Byword
+浏览器插件
+MaDo (Chrome)
+Marxico（Chrome）
+高级应用
+Sublime Text 2 + MarkdownEditing / 教程[1] 
+5）MarkDown的区块元素和区段元素分别包含哪些
+区块元素
+  1.段落和换行
+
+一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行。
+
+  2.标题
+
+用#标识符表示
+  3.区块引用
+
+在段落的第一行最前面加">"
+区块引用可以嵌套
+区块内也可以套用其他的 Markdown 语法，包括加粗、列表、代码区块等
+  4.列表
+
+Markdown 支持有序列表和无序列表。
+
+无序列表使用星号、加号或是减号作为列表标记，效果一样：
+有序列表则使用数字接着一个英文句点：
+  5.代码区块
+
+要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以，例如，下面的输入：
+  6.分隔线
+
+你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
+区段元素
+
+  1.链接
+
+方块括号后面紧接着圆括号并插入网址链接即可，例如：
+我的博客地址：Mr H's Blog
+  2.强调
+
+Markdown 使用星号（*）和底线（_）作为标记强调字词的符号
+
+斜体
+
+Paste_Image.png
+粗体
+
+Paste_Image.png
+删除线
+
+空格
+Markdown语法会忽略首行开头的空格，如果要体现出首行开头空两个的效果，可以使用 全角符号下的空格 ，windows下使用 shift+空格 切换。
+
+
+Paste_Image.png
+  3.行内标记
+
+行内标记用反引号把它包起来' '，例如：
+
+
+Paste_Image.png
+  4.插入图片
+
+我用过的简书在线编辑器和马克飞象都支持直接导入本地图片和从粘贴板粘贴，就像酱紫：
